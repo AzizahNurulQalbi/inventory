@@ -37,7 +37,7 @@ class ItemService {
     {
         Item::destroy($id); 
         Log::info('Item deleted', [
-    'id' => $id
+    'id' => $id 
 ]);
     }
 }
